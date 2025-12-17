@@ -29,17 +29,62 @@ function Drug() {
           <img src="src/assets/Main/nurofen.png" alt=""/>
           <p>Нурофен обезболивающее и жаропонижающее средство</p>
           <p>250 - 400 ₽</p>
-          <p><img src="Farma-Spravka/src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
         </SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Обезболивающие</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Витамины</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Сердечно-сосудистые</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Желудочно-кишечные</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>От простуды и гриппа</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Обезболивающие</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Витамины</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Сердечно-сосудистые</SwiperSlide>
-        <SwiperSlide className={styles.swiperslide}>Желудочно-кишечные</SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
+        <SwiperSlide className={styles.swiperslide}>
+          <img src="src/assets/Main/nurofen.png" alt=""/>
+          <p>Нурофен обезболивающее и жаропонижающее средство</p>
+          <p>250 - 400 ₽</p>
+          <p><img src="src/assets/Main/rating-star.png" alt="rating"/> 4.7</p>
+        </SwiperSlide>
       </Swiper>
         <button className={styles.swiperbuttonprev}
         onClick={() => swiperRef.current?.slidePrev()}

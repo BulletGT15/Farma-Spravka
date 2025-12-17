@@ -7,6 +7,8 @@ import { Navigation } from 'swiper/modules';
 import { useRef } from 'react';
 import Catalog from './components/Catalog/Catalog.jsx';
 import Drug from './components/Drug/Drug.jsx';
+import News from './components/News/News.jsx';
+import Footer from '../../components/Footer/Footer.jsx';
 
 function Main() {
   const swiperRef = useRef(null);
@@ -22,6 +24,8 @@ function Main() {
     </section>
     <Catalog/>
     <Drug/>
+    <News/>
+    <Footer/>
     </>
   )
 }

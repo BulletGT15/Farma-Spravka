@@ -3,7 +3,6 @@
     height: 28rem !important;
     display: flex !important;
     flex-wrap: wrap !important;
-    background-color: aqua;
     justify-content: center !important;
     font-family: 'IBM Plex Mono' !important;
     p{
@@ -14,7 +13,6 @@
     .swiper {
         width: 72% !important;
         height: 25rem !important;
-        background-color: #0EA5E9;
     }
     .swiperslide {
         height: 24rem !important;
@@ -24,7 +22,7 @@
         background: #F0F9FF !important;
         display: flex !important;
         flex-wrap: wrap;
-        border-bottom: 0.2rem solid #0EA5E9 !important;
+        border: 0.2rem solid #0EA5E9 !important;
         justify-content: center !important;
         align-items: center !important;
         border-radius: 0.3rem !important;
@@ -44,6 +42,9 @@
             &:last-of-type{
                 width: 90% !important;
                 font-size: 1rem !important;
+                img{
+                    width: 1.2rem;
+                }
             }
         }
     }

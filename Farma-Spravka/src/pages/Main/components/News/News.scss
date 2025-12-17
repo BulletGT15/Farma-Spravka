@@ -1,0 +1,70 @@
+.News{
+    width: 100%;
+    height: 40rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'IBM Plex Mono';
+    p{
+        width: 72%;
+        font-weight: 600;
+        font-size: 1.57rem;
+        color: #1E293B;
+    }
+    div{
+        width: 72%;
+        height: 25rem;
+        margin-inline: 15%;
+        display: flex;
+        justify-content: space-between;
+        .news-tab{
+            width: 30%;
+            height: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #F0F9FF;
+            border: 0.3rem solid #B3D6F9;
+            border-radius: 0.4rem;
+            margin: 0;
+            img{
+                width: 100%;
+                height: 50%;
+                background-color: brown;
+                border-top-left-radius: 0.4rem;
+                border-top-right-radius: 0.4rem;
+            }
+            p{
+                width: 90%;
+                height: 5rem;
+                font-weight: 500;
+                font-size: 1.2rem;
+                color: #1E293B;
+            }
+            button{
+                width: 13rem;
+                height: 3rem;
+                font-weight: 600;
+                font-size: 1.2rem;
+                background-color: #D0ECFF;
+                border: 0;
+                border-bottom: 0.2rem solid #1A5F7E;
+                border-radius: 0.4rem;
+                font-family: 'IBM Plex Mono';
+                color: #1A5F7E;
+            }
+        }
+    }
+    button{
+        width: 13rem;
+        height: 3rem;
+        border: 0;
+        border-bottom: 0.3rem solid #1A5F7E;
+        border-radius: 0.4rem;
+        font-family: 'IBM Plex Mono';
+        color: #1A5F7E;
+        font-size: 1.2rem;
+        background-color: #D0ECFF;
+        font-weight: 500;
+    }
+}
