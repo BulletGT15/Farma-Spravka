@@ -15,7 +15,7 @@ function Catalog() {
       <p>Популярные категории препаратов</p>
       <Swiper
         slidesPerView={5}
-        spaceBetween={10}
+        spaceBetween={25}
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',

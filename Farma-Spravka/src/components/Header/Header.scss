@@ -1,6 +1,6 @@
 header{
-    width: 100%;
-    height: 5rem;
+    max-width: 100%;
+    height: 4.7rem;
     background-color: #E3F1FF;
     display: flex;
     justify-content: space-between;
@@ -12,12 +12,12 @@ header{
         font-size: 1rem;
     }
     img{
-        width: 15rem;
-        height: 3.5rem;
-        margin-left: 2rem;
+        width: 14vw;
+        height: auto;
+        margin-left: 2vw;
     }
     div:first-of-type{
-        width: 30rem;
+        width: 25vw;
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -33,15 +33,15 @@ header{
         }
     }
     div:last-of-type{
-        width: 17rem;
+        width: 14vw;
         height: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 1rem;
+        margin-right: 2vw;
         button{
             cursor: pointer;
-            padding: 0.5rem 1.5rem;
+            padding: 0.5rem 1.2vw;
             border-radius: 0.4rem;
             border: 0;
             font-weight: 600;

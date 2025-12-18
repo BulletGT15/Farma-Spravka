@@ -15,7 +15,7 @@ function Drug() {
       <p>Популярные препараты</p>
       <Swiper
         slidesPerView={5}
-        spaceBetween={10}
+        spaceBetween={20}
         navigation={{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
