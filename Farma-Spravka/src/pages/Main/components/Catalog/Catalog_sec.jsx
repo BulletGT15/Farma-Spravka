@@ -1,4 +1,4 @@
-import styles from './Catalog.module.scss'
+import styles from './Catalog_sec.module.scss'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -6,12 +6,12 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { useRef } from 'react';
 
-function Catalog() {
+function Catalog_sec() {
   const swiperRef = useRef(null);
   
   return (
     <>
-    <section className={styles.Catalog}>
+    <section className={styles.Catalog_sec}>
       <p>Популярные категории препаратов</p>
       <Swiper
         slidesPerView={5}
@@ -47,4 +47,4 @@ function Catalog() {
   )
 }
 
-export default Catalog
+export default Catalog_sec
