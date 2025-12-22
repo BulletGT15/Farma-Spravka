@@ -1,6 +1,6 @@
 .News{
     width: 100%;
-    height: 40rem;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -13,23 +13,23 @@
     }
     div{
         width: 72%;
-        height: 25rem;
-        margin-inline: 15%;
+        height: auto;
         display: flex;
         justify-content: space-between;
+        margin-block: 5vh 2vh;
         .news-tab{
             width: 30%;
-            height: 100%;
+            height: auto;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            align-content: space-around;
             background-color: #F0F9FF;
             border: 0.3rem solid #B3D6F9;
             border-radius: 0.4rem;
-            margin: 0;
             img{
                 width: 100%;
-                height: 50%;
+                height: auto;
                 background-color: brown;
                 border-top-left-radius: 0.4rem;
                 border-top-right-radius: 0.4rem;
@@ -42,8 +42,8 @@
                 color: #1E293B;
             }
             button{
-                width: 13rem;
-                height: 3rem;
+                width: 45%;
+                height: auto;
                 font-weight: 600;
                 font-size: 1.2rem;
                 background-color: #D0ECFF;
@@ -52,6 +52,8 @@
                 border-radius: 0.4rem;
                 font-family: 'IBM Plex Mono';
                 color: #1A5F7E;
+                margin-block: 0vh 2vh;
+                padding-block: 1.5%;
             }
         }
     }
@@ -66,5 +68,7 @@
         font-size: 1.2rem;
         background-color: #D0ECFF;
         font-weight: 500;
+        margin-inline: 15%;
+        margin-block: 0vh 10vh;
     }
 }

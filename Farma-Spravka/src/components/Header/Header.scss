@@ -1,6 +1,6 @@
 header{
     max-width: 100%;
-    height: 4.7rem;
+    height: auto;
     background-color: #E3F1FF;
     display: flex;
     justify-content: space-between;
@@ -12,12 +12,14 @@ header{
         font-size: 1rem;
     }
     img{
-        width: 14vw;
+        width: 14%;
         height: auto;
         margin-left: 2vw;
+        margin-block-start: 2vh;
+        margin-block-end: 2vh;
     }
     div:first-of-type{
-        width: 25vw;
+        width: 33%;
         height: 100%;
         display: flex;
         justify-content: space-between;
@@ -33,8 +35,8 @@ header{
         }
     }
     div:last-of-type{
-        width: 14vw;
-        height: 100%;
+        width: 17%;
+        height: auto;
         display: flex;
         justify-content: space-between;
         align-items: center;

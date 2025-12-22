@@ -1,6 +1,6 @@
 .Catalog_sec{
     width: 100% !important;
-    height: 17rem !important;
+    height: auto !important;
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
@@ -8,44 +8,49 @@
     align-content: space-evenly;
     p{
         width: 77% !important;
+        margin-inline: 11%;
+        margin-block-start: 10vh;
         font-size: 1.57rem !important;
         font-weight: 600 !important;
         color: #1E293B;
     }
-    .swiper{
-        width: 70% !important;
-        height: 4rem !important;
-        display: flex !important;
-    }
-    .swiperslide{
-        height: 96% !important;
-        text-align: center !important;
-        font-size: 1.2rem !important;
-        color: #0EA5E9 !important;
-        background: #F0F9FF !important;
-        display: flex !important;
-        border-bottom: 0.2rem solid #0EA5E9 !important;
-        justify-content: center !important;
-        align-items: center !important;
-        border-radius: 0.5rem !important;
-    }
-    .swiperbuttonprev, .swiperbuttonnext{
-        margin-top: 0vh !important;
-        margin-inline: 0vw !important;
-        width: 2rem !important;
-        height: 2rem !important;
-        background: #00000000 !important;
-        border: 0px solid #007bff !important;
-        cursor: pointer !important;
-    }
-    .swiperbuttonprev{
-        position: absolute;
-        left: 12.3vw;
-        top: 33.5rem;
-    }
-    .swiperbuttonnext{
-        position: absolute;
-        left: 85vw;
-        top: 33.5rem;
+    .div_swiper{
+        width: 77%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-block: 8vh 15vh;
+        .swiper{
+            width: 90% !important;
+            height: 4rem !important;
+            margin-inline: 0% !important;
+            display: flex !important;
+        }
+        .swiperslide{
+            height: 96% !important;
+            text-align: center !important;
+            font-size: 1.2rem !important;
+            color: #0EA5E9 !important;
+            background: #F0F9FF !important;
+            display: flex !important;
+            border-bottom: 0.2rem solid #0EA5E9 !important;
+            justify-content: center !important;
+            align-items: center !important;
+            border-radius: 0.5rem !important;
+        }
+        .swiperbuttonprev, .swiperbuttonnext{
+            margin-top: 0vh !important;
+            margin-inline: 0vw !important;
+            width: 2rem !important;
+            height: 2rem !important;
+            background: #00000000 !important;
+            border: 0px solid #007bff !important;
+            cursor: pointer !important;
+        }
+        .swiperbuttonprev{
+        }
+        .swiperbuttonnext{
+        }
     }
 }

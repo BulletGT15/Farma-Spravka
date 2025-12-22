@@ -1,13 +1,13 @@
 .Search{
-    width: 100%;
-    height: 18.4rem;
+    max-width: 100%;
+    height: auto;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
     justify-content: center;
     div{
         width: 60%;
-        height: 65%;
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -18,10 +18,14 @@
             font-family: 'IBM Plex Mono';
         }
         p:first-of-type{
+            margin-block-start: 12vh;
+            margin-block-end: 10vh;
             font-size: 2.1rem;
             font-weight: 600;
         }
         p:last-of-type{
+            margin-block-start: 0vh;
+            margin-block-end: 7vh;
             font-size: 1.1rem;
             font-weight: 500;
             color: #888888;
@@ -36,6 +40,7 @@
             align-items: center;
             align-content: center;
             padding: 0 0.5rem;
+            margin-block-end: 10vh;
             box-sizing: border-box;
             transition: all 0.3s ease;
             &:focus-within {
