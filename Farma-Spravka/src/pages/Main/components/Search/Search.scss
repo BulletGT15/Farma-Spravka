@@ -18,50 +18,50 @@
             font-family: 'IBM Plex Mono';
         }
         p:first-of-type{
-            margin-block-start: 12vh;
-            margin-block-end: 10vh;
-            font-size: 2.1rem;
+            margin-block-start: 10vh;
+            margin-block-end: 6vh;
+            font-size: 3em;
             font-weight: 600;
         }
         p:last-of-type{
-            margin-block-start: 0vh;
-            margin-block-end: 7vh;
-            font-size: 1.1rem;
+            margin-block-end: 6vh;
+            font-size: 1.5em;
             font-weight: 500;
             color: #888888;
         }
         div{
-            width: 53%;
-            height: 2.7rem;
+            width: 55%;
+            height: 12%;
             justify-content: space-evenly;
-            border: 0.2rem solid #CBD5E1;
-            border-radius: 0.4rem;
+            border: 0.2em solid #CBD5E1;
+            border-radius: 0.4em;
             display: flex;
             align-items: center;
             align-content: center;
-            padding: 0 0.5rem;
-            margin-block-end: 10vh;
+            padding: 0 0.5em;
+            margin-block-end: 15vh;
             box-sizing: border-box;
             transition: all 0.3s ease;
             &:focus-within {
-                border: 0.2rem solid #0B8BC4;
+                border: 0.2em solid #0B8BC4;
             }
             &:hover {
-                border: 0.2rem solid #0B8BC4;
+                border: 0.2em solid #0B8BC4;
             }
             img{
-                width: 1.5rem;
-                height: 1.5rem;
-                margin-right: 0.5rem;
+                width: 5%;
+                height: auto;
+                margin-right: 0.5em;
                 cursor: pointer;
             }
             input{
                 width: 100%;
+                height: auto;
                 flex: 1;
                 border: 0;
                 outline: none;
                 background: transparent;
-                font-size: 1rem;
+                font-size: 1.3em;
                 font-family: 'IBM Plex Mono';
                 text-align: left;
                 &:focus{
