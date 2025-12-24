@@ -1,56 +1,126 @@
-.Catalog_sec{
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    font-family: 'IBM Plex Mono' !important;
-    align-content: space-evenly;
-    p{
-        width: 77% !important;
-        margin-inline: 11%;
-        margin-block-start: 0vh;
-        font-size: 2.2em !important;
-        font-weight: 600 !important;
-        color: #1E293B;
-    }
-    .div_swiper{
-        width: 77%;
-        height: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-block: 8vh 15vh;
-        .swiper{
-            width: 90% !important;
-            height: 4rem !important;
-            margin-inline: 0% !important;
-            display: flex !important;
+@media screen and (max-width: 1920px){
+    .Catalog_sec{
+        width: 100% !important;
+        height: auto !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        font-family: 'IBM Plex Mono' !important;
+        align-content: space-evenly;
+        p{
+            width: 77% !important;
+            margin-inline: 11%;
+            margin-block-start: 0vh;
+            font-size: 2.2em !important;
+            font-weight: 600 !important;
+            color: #1E293B;
         }
-        .swiperslide{
-            height: 96% !important;
-            text-align: center !important;
-            font-size: 1.2rem !important;
-            color: #0EA5E9 !important;
-            background: #F0F9FF !important;
-            display: flex !important;
-            border-bottom: 0.2rem solid #0EA5E9 !important;
-            justify-content: center !important;
-            align-items: center !important;
-            border-radius: 0.5rem !important;
+        .div_swiper{
+            width: 77%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-block: 5vh 10vh;
+            .swiper{
+                width: 90% !important;
+                height: 4rem !important;
+                margin-inline: 0% !important;
+                display: flex !important;
+            }
+            .swiperslide{
+                height: 96% !important;
+                text-align: center !important;
+                font-size: 1.2em !important;
+                color: #0EA5E9 !important;
+                background: #F0F9FF !important;
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border-radius: 0.5rem !important;
+                transition: 0.2s ease;
+                cursor: pointer;
+                &:hover:active{
+                    transition: 0.2s ease;
+                    border-bottom: 0.2rem solid #0EA5E9 !important;
+                }
+            }
+            .swiperbuttonprev, .swiperbuttonnext{
+                margin-top: 0vh !important;
+                margin-inline: 0vw !important;
+                width: 2rem !important;
+                height: 2rem !important;
+                background: #00000000 !important;
+                border: 0px solid #007bff !important;
+                cursor: pointer !important;
+            }
         }
-        .swiperbuttonprev, .swiperbuttonnext{
-            margin-top: 0vh !important;
-            margin-inline: 0vw !important;
-            width: 2rem !important;
-            height: 2rem !important;
-            background: #00000000 !important;
-            border: 0px solid #007bff !important;
-            cursor: pointer !important;
+    }    
+}
+
+
+
+@media screen and (max-width: 1366px){
+    .Catalog_sec{
+        width: 100% !important;
+        height: auto !important;
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        font-family: 'IBM Plex Mono' !important;
+        align-content: space-evenly;
+        p{
+            width: 77% !important;
+            margin-inline: 11%;
+            margin-block-start: 0vh;
+            font-size: 1.5em !important;
+            font-weight: 600 !important;
+            color: #1E293B;
         }
-        .swiperbuttonprev{
+        .div_swiper{
+            width: 77%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-block: 5vh 10vh;
+            .swiper{
+                width: 90% !important;
+                height: 3.5rem !important;
+                margin-inline: 0% !important;
+                display: flex !important;
+                font-size: 1em;
+            }
+            .swiperslide{
+                height: 90% !important;
+                text-align: center !important;
+                font-size: 1em !important;
+                color: #0EA5E9 !important;
+                background: #F0F9FF !important;
+                display: flex !important;
+                border-bottom: 0.3em solid #00000000;
+                justify-content: center !important;
+                align-items: center !important;
+                border-radius: 0.5rem !important;
+                cursor: pointer;
+                &:hover{
+                    transition: 0.2s ease;
+                    border-bottom: 0.3em solid #0EA5E9;
+                }
+                &:active{
+                    transition: 0.1s ease;
+                    border-bottom: 0.1em solid #0EA5E9;
+                }
+            }
+            .swiperbuttonprev, .swiperbuttonnext{
+                margin-top: 0vh !important;
+                margin-inline: 0vw !important;
+                width: 2rem !important;
+                height: 2rem !important;
+                background: #00000000 !important;
+                border: 0px solid #007bff !important;
+                cursor: pointer !important;
+            }
         }
-        .swiperbuttonnext{
-        }
-    }
+    }    
 }

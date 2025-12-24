@@ -1,87 +1,187 @@
-.Drug{
-    width: 100% !important;
-    height: auto !important;
-    display: flex !important;
-    flex-wrap: wrap !important;
-    justify-content: center !important;
-    align-content: space-evenly;
-    font-family: 'IBM Plex Mono' !important;
-    .p_tittle{
-        width: 77% !important;
-        font-size: 1.57rem !important;
-        font-weight: 600;
-        color: #1E293B;
-    }
-    .div_drug{
-        width: 77%;
+@media screen and (max-width: 1920px){
+    .Drug{
+        width: 100%;
         height: auto;
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-block: 5vh 15vh;
-        .swiper{
-            width: 90% !important;
-            height: 18rem !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        font-family: 'IBM Plex Mono';
+        .p_tittle{
+            width: 77%;
+            margin-inline: 11%;
+            margin-block-start: 0vh;
+            font-size: 2.2em;
+            font-weight: 600;
+            color: #1E293B;
+        }
+        .div_drug{
+            width: 77%;
+            height: auto;
             display: flex;
             justify-content: space-between;
-        }
-        .swiperslide{
-            width: 18.29% !important;
-            height: auto !important;
-            text-align: center !important;
-            font-size: 1rem !important;
-            color: #034b6d !important;
-            background: #F0F9FF !important;
-            display: flex !important;
-            flex-wrap: wrap;
-            border: 0.2rem solid #B3D6F9 !important;
-            justify-content: center !important;
-            align-items: center !important;
-            border-radius: 0.3rem !important;
-            img{
-                width: 100%;
-                height: 50%;
-                align-self: flex-start;
+            align-items: center;
+            margin-block: 4vh 10vh;
+            .swiper{
+                width: 90% !important;
+                height: 35vh !important;
+                display: flex;
+                justify-content: space-between;
             }
-            p{
-                text-align: left;
-                font-size: 1vw !important;
-                &:first-of-type{
-                    width: 90% !important;
-                    height: 30%;
-                    color: #1E293B;
-                    font-weight: 500;
+            .swiperslide{
+                width: 18.8% !important;
+                height: auto !important;
+                text-align: center !important;
+                font-size: 1rem !important;
+                color: #034b6d !important;
+                background: #F0F9FF !important;
+                display: flex !important;
+                flex-wrap: wrap;
+                border: 0.2rem solid #B3D6F9 !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border-radius: 0.3rem !important;
+                cursor: pointer;
+                &:hover, p:hover{
+                    text-decoration: dotted;
                 }
-                &:nth-of-type(2){
-                    width: 90% !important;
-                    color: #64748B;
-                    font-weight: 600;
+                img{
+                    width: 100%;
+                    height: 50%;
+                    align-self: flex-start;
                 }
-                &:last-of-type{
-                    width: 90% !important;
-                    color: #64748B;
-                    display: flex;
-                    align-content: center;
-                    font-weight: 600;
-                    img{
-                        width: 1rem;
-                        margin-right: 0.5vw;
+                p{
+                    text-align: left;
+                    font-size: 1vw !important;
+                    &:first-of-type{
+                        width: 90% !important;
+                        height: 30%;
+                        color: #1E293B;
+                        font-weight: 500;
+                    }
+                    &:nth-of-type(2){
+                        width: 90% !important;
+                        color: #64748B;
+                        font-weight: 600;
+                    }
+                    &:last-of-type{
+                        width: 90% !important;
+                        color: #64748B;
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        font-weight: 600;
+                        img{
+                            width: 1rem;
+                            margin-right: 0.5vw;
+                        }
                     }
                 }
             }
+            .swiperbuttonprev, .swiperbuttonnext{
+                margin-top: 0vh !important;
+                margin-inline: 0vw !important;
+                width: 2rem !important;
+                height: 2rem !important;
+                background: #00000000 !important;
+                border: 0px solid #007bff !important;
+                cursor: pointer !important;
+            }
         }
-        .swiperbuttonprev, .swiperbuttonnext{
-            margin-top: 0vh !important;
-            margin-inline: 0vw !important;
-            width: 2rem !important;
-            height: 2rem !important;
-            background: #00000000 !important;
-            border: 0px solid #007bff !important;
-            cursor: pointer !important;
+    }
+}
+
+
+
+@media screen and (max-width: 1366px){
+    .Drug{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-evenly;
+        font-family: 'IBM Plex Mono';
+        .p_tittle{
+            width: 77%;
+            margin-inline: 11%;
+            margin-block-start: 0vh;
+            font-size: 1.5em;
+            font-weight: 600;
+            color: #1E293B;
         }
-        .swiperbuttonprev{
-        }
-        .swiperbuttonnext{
+        .div_drug{
+            width: 77%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-block: 4vh 10vh;
+            .swiper{
+                width: 90% !important;
+                height: 45vh !important;
+                display: flex;
+                justify-content: space-between;
+            }
+            .swiperslide{
+                width: 18.3% !important;
+                height: auto !important;
+                text-align: center !important;
+                font-size: 1rem !important;
+                color: #034b6d !important;
+                background: #F0F9FF !important;
+                display: flex !important;
+                flex-wrap: wrap;
+                border: 0.2rem solid #B3D6F9 !important;
+                justify-content: center !important;
+                align-items: center !important;
+                border-radius: 0.3rem !important;
+                cursor: pointer;
+                &:hover, p:hover{
+                    text-decoration: dotted;
+                }
+                img{
+                    width: 100%;
+                    height: 50%;
+                    align-self: flex-start;
+                }
+                p{
+                    text-align: left;
+                    font-size: 1vw !important;
+                    &:first-of-type{
+                        width: 90% !important;
+                        height: 30%;
+                        color: #1E293B;
+                        font-weight: 500;
+                    }
+                    &:nth-of-type(2){
+                        width: 90% !important;
+                        color: #64748B;
+                        font-weight: 600;
+                    }
+                    &:last-of-type{
+                        width: 90% !important;
+                        color: #64748B;
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        font-weight: 600;
+                        img{
+                            width: 1rem;
+                            margin-right: 0.5vw;
+                        }
+                    }
+                }
+            }
+            .swiperbuttonprev, .swiperbuttonnext{
+                margin-top: 0vh !important;
+                margin-inline: 0vw !important;
+                width: 2rem !important;
+                height: 2rem !important;
+                background: #00000000 !important;
+                border: 0px solid #007bff !important;
+                cursor: pointer !important;
+            }
         }
     }
 }

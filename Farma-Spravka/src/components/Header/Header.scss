@@ -1,70 +1,146 @@
-header{
-    max-width: 100%;
-    height: auto;
-    background-color: #E3F1FF;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #64748B;
-    p, button{
-        font-family: 'IBM Plex Mono';
-        font-size: 1.4em;
-    }
-    img{
-        width: 14%;
+@media screen and (max-width: 1920px){
+    header{
+        max-width: 100%;
         height: auto;
-        margin-left: 2vw;
-        margin-block-start: 2vh;
-        margin-block-end: 2vh;
-    }
-    div:first-of-type{
-        width: 33%;
-        height: 100%;
+        background-color: #E3F1FF;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        p{
-            transition: 0.3s;
-            cursor: pointer;
-            &:hover{
-                color: #1E293B;
-                font-weight: 500;
+        color: #64748B;
+        p, button{
+            font-family: 'IBM Plex Mono';
+            font-size: 1.4em;
+        }
+        img{
+            width: 14%;
+            height: auto;
+            margin-left: 2vw;
+            margin-block-start: 2vh;
+            margin-block-end: 2vh;
+        }
+        div:first-of-type{
+            width: 33%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
                 transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    color: #1E293B;
+                    font-weight: 500;
+                    transition: 0.3s;
+                }
+            }
+        }
+        div:last-of-type{
+            width: 17%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 2vw;
+            button{
+                cursor: pointer;
+                padding: 0.5rem 1.2vw;
+                border-radius: 0.4rem;
+                border: 0;
+                font-weight: 600;
+                transition: 0.2s;
+                &:hover{
+                    transition: 0.2s;
+                }
+            }
+            button:first-of-type{
+                color: #64748B;
+                background-color: #0ea4e900;
+                &:hover{
+                    background-color: #0B8BC4;
+                    color: white;
+                }
+            }
+            button:last-of-type{
+                background-color: #0EA5E9;
+                color: white;
+                &:hover{
+                    background-color: #0B8BC4;
+                    color: white;
+                }
             }
         }
     }
-    div:last-of-type{
-        width: 17%;
+}
+
+@media screen and (max-width: 1366px){
+    header{
+        max-width: 100%;
         height: auto;
+        background-color: #E3F1FF;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-right: 2vw;
-        button{
-            cursor: pointer;
-            padding: 0.5rem 1.2vw;
-            border-radius: 0.4rem;
-            border: 0;
-            font-weight: 600;
-            transition: 0.2s;
-            &:hover{
+        color: #64748B;
+        p, button{
+            font-family: 'IBM Plex Mono';
+            font-size: 1em;
+        }
+        img{
+            width: 14%;
+            height: auto;
+            margin-left: 2vw;
+            margin-block-start: 2vh;
+            margin-block-end: 2vh;
+        }
+        div:first-of-type{
+            width: 33%;
+            height: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            p{
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    color: #1E293B;
+                    font-weight: 500;
+                    transition: 0.3s;
+                }
+            }
+        }
+        div:last-of-type{
+            width: 17%;
+            height: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 2vw;
+            button{
+                cursor: pointer;
+                padding: 0.5rem 1.2vw;
+                border-radius: 0.4rem;
+                border: 0;
+                font-weight: 600;
                 transition: 0.2s;
+                &:hover{
+                    transition: 0.2s;
+                }
             }
-        }
-        button:first-of-type{
-            color: #64748B;
-            background-color: #0ea4e900;
-            &:hover{
-                background-color: #0B8BC4;
-                color: white;
+            button:first-of-type{
+                color: #64748B;
+                background-color: #0ea4e900;
+                &:hover{
+                    background-color: #0B8BC4;
+                    color: white;
+                }
             }
-        }
-        button:last-of-type{
-            background-color: #0EA5E9;
-            color: white;
-            &:hover{
-                background-color: #0B8BC4;
+            button:last-of-type{
+                background-color: #0EA5E9;
                 color: white;
+                &:hover{
+                    background-color: #0B8BC4;
+                    color: white;
+                }
             }
         }
     }

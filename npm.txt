@@ -2,3 +2,7 @@ npm i -g sass
 npm i module
 npm i swiper
 npm i react-router-dom
+
+resolution width
+1920
+1366
