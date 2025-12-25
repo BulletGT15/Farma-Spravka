@@ -1,4 +1,4 @@
-import styles from './Drug.module.scss'
+import styles from './Drug_sec.module.scss'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -6,12 +6,12 @@ import 'swiper/css/navigation';
 import { Navigation } from 'swiper/modules';
 import { useRef } from 'react';
 
-function Drug() {
+function Drug_sec() {
   const swiperRef = useRef(null);
   
   return (
     <>
-    <section className={styles.Drug}>
+    <section className={styles.Drug_sec}>
       <p className={styles.p_tittle}>Популярные препараты</p>
         <div className={styles.div_drug}>
           <button className={styles.swiperbuttonprev}
@@ -99,4 +99,4 @@ function Drug() {
   )
 }
 
-export default Drug
+export default Drug_sec

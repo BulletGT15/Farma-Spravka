@@ -1,10 +1,10 @@
-import './News.scss'
+import './News_sec.scss'
 
-function News() {
+function News_sec() {
   
   return (
     <>
-    <section className='News'>
+    <section className='News_sec'>
         <p>Полезные статьи и новости</p>
         <div>
             <div className='news-tab'>
@@ -29,4 +29,4 @@ function News() {
   )
 }
 
-export default News
+export default News_sec

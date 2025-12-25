@@ -6,10 +6,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: #64748B;
-        p, button{
+        .link-button, button{
             font-family: 'IBM Plex Mono';
             font-size: 1.4em;
+            text-decoration: none;
         }
         img{
             width: 14%;
@@ -24,7 +24,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            p{
+            .link-button{
+                color: #64748B;
                 transition: 0.3s;
                 cursor: pointer;
                 &:hover{
@@ -81,9 +82,10 @@
         justify-content: space-between;
         align-items: center;
         color: #64748B;
-        p, button{
+        .link-button, button{
             font-family: 'IBM Plex Mono';
             font-size: 1em;
+            text-decoration: none;
         }
         img{
             width: 14%;
@@ -98,7 +100,8 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            p{
+            .link-button{
+                color: #64748B;
                 transition: 0.3s;
                 cursor: pointer;
                 &:hover{

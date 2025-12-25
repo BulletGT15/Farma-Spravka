@@ -1,10 +1,10 @@
-import './Search.scss'
+import './Search_sec.scss'
 
-function Search() {
+function Search_sec() {
   
   return (
     <>
-    <section className='Search'>
+    <section className='Search_sec'>
         <div>
             <p>Ваш надёжный путеводитель по лекарствам</p>
             <p>Найдите лекарства которые вам необходимы</p>
@@ -15,4 +15,4 @@ function Search() {
   )
 }
 
-export default Search
+export default Search_sec

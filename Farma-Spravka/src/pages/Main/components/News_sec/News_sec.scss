@@ -1,5 +1,5 @@
 @media screen and (max-width: 1920px){
-    .News{
+    .News_sec{
         width: 100%;
         height: auto;
         display: flex;
@@ -52,28 +52,40 @@
                     font-size: 1.2em;
                     background-color: #D0ECFF;
                     border: 0;
-                    border-bottom: 0.2em solid #1A5F7E;
+                    border-bottom: 0.2em solid #00000000;
                     border-radius: 0.4em;
                     font-family: 'IBM Plex Mono';
                     color: #1A5F7E;
                     margin-block: 0vw 2vh;
                     padding-block: 1.5%;
+                    transition: 0.2s;
+                    cursor: pointer;
+                    &:hover{
+                        border-bottom: 0.2rem solid #1A5F7E;
+                        transition: 0.2s;
+                    }
                 }
             }
         }
         button{
-            width: 13rem;
-            height: 3rem;
+            width: 11em;
+            height: 2.5em;
             border: 0;
-            border-bottom: 0.3rem solid #1A5F7E;
+            border-bottom: 0.3rem solid #00000000;
             border-radius: 0.4rem;
             font-family: 'IBM Plex Mono';
             color: #1A5F7E;
-            font-size: 1.2rem;
+            font-size: 1rem;
             background-color: #D0ECFF;
-            font-weight: 500;
+            font-weight: 600;
             margin-inline: 15%;
             margin-block: 0vh 10vh;
+            transition: 0.2s;
+            cursor: pointer;
+            &:hover{
+                border-bottom: 0.3rem solid #1A5F7E;
+                transition: 0.2s;
+            }
         }
     }
 }
@@ -81,7 +93,7 @@
 
 
 @media screen and (max-width: 1366px){
-    .News{
+    .News_sec{
         width: 100%;
         height: auto;
         display: flex;
@@ -134,12 +146,18 @@
                     font-size: 1em;
                     background-color: #D0ECFF;
                     border: 0;
-                    border-bottom: 0.2em solid #1A5F7E;
+                    border-bottom: 0.2em solid #00000000;
                     border-radius: 0.4em;
                     font-family: 'IBM Plex Mono';
                     color: #1A5F7E;
                     margin-block: 0vw 2vh;
                     padding-block: 1.5%;
+                    transition: 0.2s;
+                    cursor: pointer;
+                    &:hover{
+                        border-bottom: 0.2rem solid #1A5F7E;
+                        transition: 0.2s;
+                    }
                 }
             }
         }
@@ -147,15 +165,21 @@
             width: 11em;
             height: 2.5em;
             border: 0;
-            border-bottom: 0.3rem solid #1A5F7E;
+            border-bottom: 0.3rem solid #00000000;
             border-radius: 0.4rem;
             font-family: 'IBM Plex Mono';
             color: #1A5F7E;
             font-size: 1rem;
             background-color: #D0ECFF;
-            font-weight: 500;
+            font-weight: 600;
             margin-inline: 15%;
             margin-block: 0vh 10vh;
+            transition: 0.2s;
+            cursor: pointer;
+            &:hover{
+                border-bottom: 0.3rem solid #1A5F7E;
+                transition: 0.2s;
+            }
         }
     }
 }
