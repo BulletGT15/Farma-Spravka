@@ -4,18 +4,53 @@
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: space-between;
+        justify-content: center;
+        align-content: center;
         background-color: blue;
         .news_div{
-            width: 100%;
+            width: 70%;
             height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
             margin-block: 15vh;
             background-color: brown;
             .news_block{
                 width: 30%;
-                height: 25em;
+                height: 20em;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: space-around;
+                margin-block: 3vh;
                 background-color: burlywood;
+                border: 0.2em solid #B3D6F9;
+                border-radius: 0.5em;
+                background-color: #F0F9FF;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-self: flex-start;
+                }
+                p{
+                    width: 95%;
+                    font-size: 1.2em;
+                    font-family: "IBM Plex Mono", monospace;
+                }
+                button{
+                    width: 25%;
+                    height: auto;
+                    padding-block: 0.5vh;
+                    border: 0;
+                    background-color: #D0ECFF;
+                    border-bottom: 0.3em solid #00000000;
+                    transition: 0.2s;
+                    &:hover{
+                        border-bottom: 0.3em solid #1A5F7E;
+                        transition: 0.2s;
+                    }
+                }
             }
         }
     }
@@ -29,18 +64,53 @@
         height: auto;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        align-content: space-between;
+        justify-content: center;
+        align-content: center;
         background-color: blue;
         .news_div{
-            width: 100%;
+            width: 70%;
             height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-content: space-between;
             margin-block: 15vh;
             background-color: brown;
             .news_block{
                 width: 30%;
-                height: 25em;
+                height: 20em;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-content: space-around;
+                margin-block: 3vh;
                 background-color: burlywood;
+                border: 0.2em solid #B3D6F9;
+                border-radius: 0.5em;
+                background-color: #F0F9FF;
+                img{
+                    width: 100%;
+                    height: auto;
+                    align-self: flex-start;
+                }
+                p{
+                    width: 95%;
+                    font-size: 1.2em;
+                    font-family: "IBM Plex Mono", monospace;
+                }
+                button{
+                    width: 25%;
+                    height: auto;
+                    padding-block: 0.5vh;
+                    border: 0;
+                    background-color: #D0ECFF;
+                    border-bottom: 0.3em solid #00000000;
+                    transition: 0.2s;
+                    &:hover{
+                        border-bottom: 0.3em solid #1A5F7E;
+                        transition: 0.2s;
+                    }
+                }
             }
         }
     }
